@@ -16,7 +16,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
  * @package Alpha\VisitorTrackingBundle\Entity
  *
  * @ORM\Entity()
- * @ORM\Table(name="session",indexes={@ORM\Index(name="session_created_index", columns={"created"})})
+ * @ORM\Table(name="visitor_session",indexes={@ORM\Index(name="visitor_session_created_index", columns={"created"})})
  */
 class Session
 {

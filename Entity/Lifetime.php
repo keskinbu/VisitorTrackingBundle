@@ -10,6 +10,8 @@ use Doctrine\Common\Collections\ArrayCollection;
  * Class Lifetime
  * @package Alpha\VisitorTrackingBundle\Entity
  *
+ * @ORM\Table(name="visitor_lifetime")
+ *
  * @ORM\Entity()
  */
 class Lifetime

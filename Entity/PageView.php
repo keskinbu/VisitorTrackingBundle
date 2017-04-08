@@ -14,6 +14,9 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Class PageView
  * @package Alpha\VisitorTrackingBundle\Entity
+ *
+ * @ORM\Table(name="visitor_pageview")
+ *
  * @ORM\Entity()
  */
 class PageView
