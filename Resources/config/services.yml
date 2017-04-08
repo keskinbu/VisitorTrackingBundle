@@ -10,3 +10,10 @@ services:
 
     alpha.visitor_tracking.manager.device_fingerprint:
         class: Alpha\VisitorTrackingBundle\Manager\DeviceFingerprintManager
+
+    gedmo.listener.timestampable:
+        class: Gedmo\Timestampable\TimestampableListener
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
+        calls:
+            - [ setAnnotationReader, [ @annotation_reader ] ]
