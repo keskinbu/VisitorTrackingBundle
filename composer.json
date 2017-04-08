@@ -1,12 +1,12 @@
 {
-  "name": "lendable/visitor-tracking-bundle",
+  "name": "keskinbu/visitor-tracking-bundle",
   "type": "symfony-bundle",
   "description": "visitor tracking bundle",
   "keywords": [
     "tracking",
     "Symfony2"
   ],
-  "homepage": "https://github.com/Lendable/VisitorTrackingBundle.git",
+  "homepage": "https://github.com/keskinbu/VisitorTrackingBundle.git",
   "license": "MIT",
   "authors": [
     {
